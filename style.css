@@ -1,0 +1,114 @@
+/* Header_section */
+.header_section{
+    background: #9b59b6;
+}
+.header_logo img {
+	width: 180px;
+}
+
+/* Primary Menu */
+.primary_menu ul {
+	margin-bottom: 0px;
+}
+.primary_menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary_menu ul li a {
+	display: block;
+	color: #fff;
+	padding: 0px 20px;
+	font-size: 18px;
+	line-height: 59px;
+	text-decoration: none;
+	border-right: 1px solid #ddd;
+	transition: .5s;
+}
+.primary_menu ul li a:hover{
+	background:#9149af;
+}
+
+/* Banenr Section */
+.banner_section {
+	background: url(https://www.linkpicture.com/q/bg_26.jpg);
+	padding: 170px 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.about{
+	background: #e9edee;
+}
+.banenr_text h3 {
+	background: rgb(0, 0, 0, 0.4);
+	color: #ffff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 25px;
+}
+.banenr_text h1 {
+	background: rgba(155, 89, 182, 0.6);
+	color: #ffff;
+	max-width: 374px;
+	margin: auto;
+	font-size: 31px;
+	padding: 9px 0px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+/* service section */
+.service_section{
+	background: #f7f7f6;
+}
+.service_section span{
+	display: block;
+    height: 60px;
+    width: 60px;
+    background: #8e44ad;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+.service_section h3{
+	margin: 12px 0;
+    font-size: 25px;
+}
+
+/* blog Section */
+img{
+	max-width: 100%;
+}
+.blog_item p{
+	font-size: 18px;
+}
+.notice ul{
+	list-style: none;
+	padding-left: 0;
+}
+.notice ul li {
+	background: #eaeaea;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.notice ul li a{}
+
+
+/* Footer Section */
+.footer{
+	background: #2c3e50;
+}
+.footer p{
+	margin-bottom: 0;
+}
+.footer a{
+	color: #fff;
+	margin-left: 15px;
+	display: inline-block;
+}
